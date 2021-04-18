@@ -1,0 +1,24 @@
+import java.io.*;
+import java.util.Scanner;
+class practice
+ {
+    public static void main(String args[]) throws IOException
+      {
+        FileReader f1=new FileReader("input.txt");
+        Scanner sc=new Scanner(f1);
+        
+         
+              
+         sc.nextLine();
+         String[] temp=sc.split(" ");
+         sc.hasNextLine();
+         sc.nextLine();
+         String firstname=temp[0];
+         System.out.println(firstname);
+                   
+
+     
+
+
+        }
+   }
