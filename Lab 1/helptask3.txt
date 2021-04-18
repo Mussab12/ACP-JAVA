@@ -1,0 +1,9 @@
+while((aux=n1+n2)<min) {
+           n1=n2;
+           n2=aux;
+                                  }
+           while((aux=n1+n2)<=max) {
+           System.out.println(aux+" ");
+           n1=n2;
+           n2=aux;
+}YYY
